@@ -1,0 +1,46 @@
+/* Default styles for larger screens */
+.header {
+    font-size: 1.5rem;
+    height: 8.875em;
+    width: 100%;
+}
+
+.navbar-end {
+    width: 84.670em;
+}
+
+.menu li a {
+    font-size: 1.5rem;
+}
+
+/* Media query for tablets */
+@media (max-width: 768px) {
+    .header {
+        font-size: 1.2rem;
+        height: 6.875em;
+    }
+
+    .navbar-end {
+        width: 100%;
+    }
+
+    .menu li a {
+        font-size: 1.2rem;
+    }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+    .header {
+        font-size: 1rem;
+        height: 5.875em;
+    }
+
+    .navbar-end {
+        width: 100%;
+    }
+
+    .menu li a {
+        font-size: 1rem;
+    }
+}
