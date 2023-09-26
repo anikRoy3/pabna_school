@@ -12,9 +12,10 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 
   <!-- Carousel custom css -->
-  <link rel="stylesheet" href="utils/banner_carousel/banner_carousel.css">
+    <link rel="stylesheet" href="utils/banner_carousel/banner_carousel.css">
+    <link rel="stylesheet" href="utils/teachers_carousel/teachers_carousel.css">
 
-  <!-- nav css -->
+    <!-- nav css -->
   <!-- <link rel="stylesheet" href="src/assests/css/nav.css"> -->
 
   <style>

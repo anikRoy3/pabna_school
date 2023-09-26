@@ -6,7 +6,7 @@
     <h1 class="text-center text-[1.5rem] py-3">পরিচালনা পর্ষদ ও শিক্ষকমন্ডলী</h1>
 
     <div class="flex flex-col lg:flex-row gap-4">
-        <div class="" style="flex:15%">
+        <div class="w-full" style="flex:20%">
             <div class="flex items-center mb-2" style="background: var(--blue-1, #0C1167); padding:1em;">
                 <span class="text-white me-[3em]">গভর্নিং বডি</span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
@@ -32,10 +32,8 @@
                 </svg>
             </div>
         </div>
-        <div class="flex flex-col lg:flex-row flex-wrap gap-4 px-3 ml-4" style="flex:85%; width: 85%;">
-            <div style="flex: 85%; width:85%;">
+            <div class="flex w-full flex-col justify-center items-center lg:flex-row flex-wrap gap-4 px-3 ml-4"  style="flex: 80%; width:80%;">
                 <?php include('utils/teachers_carousel/teachers_carousel.php') ?>
             </div>
-        </div>
     </div>
 </section>

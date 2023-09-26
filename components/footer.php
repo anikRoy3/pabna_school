@@ -5,15 +5,15 @@
                 <img class="w-[6.381em] h-[6.188em]" src="https://s3-alpha-sig.figma.com/img/119a/6c84/63006f98c10057d92ce24493f551258c?Expires=1695600000&Signature=T3RuqbOHXX2BJaZh6H8fCx81bmAAhqhWNd94fQ4LcV0QEg3htv~RVTuOi7dakFFy9TWwKcKdLJDFJKh9sMf2iaFH0Z6saw1FYIe73q4cQONOKW0oEk145Dpp~1enSGdevJ~A5CV8Cvb1fb-BQcHdmXMPR5Eb2xhLHPguJtKTtLKhXlpnHE4yJAP4UAixIur6vVPAYYfdzhE2pxtRsaM3PD5vQwZRvY2nlQvuEQCFPyzUV0QGm~7BpGWmpAhjQ85sDvFniV1IM23LFWvzFKwyIVn5nBr-LriMDEJx8mYaFZh1hILDlW48ycc4QANLuMEyUDb3AzSp~mq1QOhPBNakeA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="footer_image">
             </div>
             <div class="flex-1">
-                <h3 class="text-[1em] md:text-[2em] mb-2">
+                <h3 class="text-[1em] md:text-[1.5em] mb-2">
                     পাবনা ক্যাডেট কলেজিয়েট স্কুল, পাবনা
                 </h3>
-                <p class="text-[1em] md:text-[1.25em] mt-1">পাবনা সেনানিবাস ৩৫০১, পাবনা</p>
-                <p class="text-[1em] md:text-[1.25em] mt-1">
+                <p class=" mt-1">পাবনা সেনানিবাস ৩৫০১, পাবনা</p>
+                <p class="mt-1">
                     <span>০১৭৯৪৬২৫৩৭৬৫</span>
                     <span>০১৭৯৪৬২৫৩৭৬৫</span>
                 </p>
-                <p class="text-[1em] md:text-[1.25em] mt-1">
+                <p class="mt-1">
                     <span>ipsccml@gmail.com,</span>
                     <span>ipsccml@gmail.com</span>
                 </p>
@@ -113,7 +113,34 @@
 
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
-<!-- <script type="module" src="src/js/custom.css"></script> -->
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const swiperEl = document.getElementById('teachers')
+    Object.assign(swiperEl, {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+            clickable: true,
+        },
+        breakpoints: {
+            640: {
+                slidesPerView: 2,
+                spaceBetween: 10,
+            },
+            768: {
+                slidesPerView: 2,
+                spaceBetween: 10,
+            },
+            1024: {
+                slidesPerView: 4,
+                spaceBetween: 20,
+            },
+        },
+    });
+    swiperEl.initialize();
+})
+</script>
 
 </body>
 
