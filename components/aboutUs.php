@@ -24,27 +24,30 @@ box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.25);">
 
     <section>
         <h3 class="text-[1.5em] text-center text-[#0C1167] font-semibold">তথ্যচিত্র </h3>
-        <div class="grid grid-cols-2 lg:grid-cols-4 gap-3" style="flex: 70%;
-                                                   border-radius: 5px;
-                                                   border: 1px solid #F1F1F1;
-                                                   background: var(--white, #FFF);
-                                                   padding: 1em;
+        <div style="flex: 70%;
+                    border-radius: 5px;
+                    border: 1px solid #F1F1F1;
+                    background: var(--white, #FFF);
+                    padding: 1em;
         ">
-            <img src="src/assests/totthoCitrro_images/image_1.png" alt="">
-            <img src="src/assests/totthoCitrro_images/image_2.png" alt="">
-            <img src="src/assests/totthoCitrro_images/image_3.png" alt="">
-            <img src="src/assests/totthoCitrro_images/image_4.png" alt="">
-            <img src="src/assests/totthoCitrro_images/image_5.png" alt="">
-            <img src="src/assests/totthoCitrro_images/image_6.png" alt="">
-            <img src="src/assests/totthoCitrro_images/image_7.png" alt="">
-            <img src="src/assests/totthoCitrro_images/image_8.png" alt="">
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-3">
+                <img src="src/assests/totthoCitrro_images/image_1.png" alt="">
+                <img src="src/assests/totthoCitrro_images/image_2.png" alt="">
+                <img src="src/assests/totthoCitrro_images/image_3.png" alt="">
+                <img src="src/assests/totthoCitrro_images/image_4.png" alt="">
+                <img src="src/assests/totthoCitrro_images/image_5.png" alt="">
+                <img src="src/assests/totthoCitrro_images/image_6.png" alt="">
+                <img src="src/assests/totthoCitrro_images/image_7.png" alt="">
+                <img src="src/assests/totthoCitrro_images/image_8.png" alt="">
+            </div>
+
+            <p class="text-center my-4 text-[#0C1167] flex items-center justify-center gap-1">
+                <span> আরো</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M2.03013 9.99981C2.03013 9.83405 2.09598 9.67508 2.21319 9.55787C2.3304 9.44066 2.48937 9.37481 2.65513 9.37481H17.3964L13.4626 5.44231C13.4045 5.3842 13.3584 5.31522 13.327 5.23929C13.2955 5.16337 13.2793 5.08199 13.2793 4.99981C13.2793 4.91763 13.2955 4.83626 13.327 4.76033C13.3584 4.68441 13.4045 4.61542 13.4626 4.55731C13.5207 4.4992 13.5897 4.45311 13.6657 4.42166C13.7416 4.39021 13.823 4.37402 13.9051 4.37402C13.9873 4.37402 14.0687 4.39021 14.1446 4.42166C14.2205 4.45311 14.2895 4.4992 14.3476 4.55731L19.3476 9.55731C19.4058 9.61537 19.452 9.68434 19.4835 9.76027C19.515 9.8362 19.5312 9.9176 19.5312 9.99981C19.5312 10.082 19.515 10.1634 19.4835 10.2394C19.452 10.3153 19.4058 10.3843 19.3476 10.4423L14.3476 15.4423C14.2895 15.5004 14.2205 15.5465 14.1446 15.578C14.0687 15.6094 13.9873 15.6256 13.9051 15.6256C13.823 15.6256 13.7416 15.6094 13.6657 15.578C13.5897 15.5465 13.5207 15.5004 13.4626 15.4423C13.4045 15.3842 13.3584 15.3152 13.327 15.2393C13.2955 15.1634 13.2793 15.082 13.2793 14.9998C13.2793 14.9176 13.2955 14.8363 13.327 14.7603C13.3584 14.6844 13.4045 14.6154 13.4626 14.5573L17.3964 10.6248H2.65513C2.48937 10.6248 2.3304 10.559 2.21319 10.4418C2.09598 10.3245 2.03013 10.1656 2.03013 9.99981Z" fill="#0C1167" />
+                </svg>
+            </p>
         </div>
-        <p class="text-center my-2 text-[#0C1167] flex items-center justify-center gap-1">
-            <span> আরো</span>
-            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M2.03013 9.99981C2.03013 9.83405 2.09598 9.67508 2.21319 9.55787C2.3304 9.44066 2.48937 9.37481 2.65513 9.37481H17.3964L13.4626 5.44231C13.4045 5.3842 13.3584 5.31522 13.327 5.23929C13.2955 5.16337 13.2793 5.08199 13.2793 4.99981C13.2793 4.91763 13.2955 4.83626 13.327 4.76033C13.3584 4.68441 13.4045 4.61542 13.4626 4.55731C13.5207 4.4992 13.5897 4.45311 13.6657 4.42166C13.7416 4.39021 13.823 4.37402 13.9051 4.37402C13.9873 4.37402 14.0687 4.39021 14.1446 4.42166C14.2205 4.45311 14.2895 4.4992 14.3476 4.55731L19.3476 9.55731C19.4058 9.61537 19.452 9.68434 19.4835 9.76027C19.515 9.8362 19.5312 9.9176 19.5312 9.99981C19.5312 10.082 19.515 10.1634 19.4835 10.2394C19.452 10.3153 19.4058 10.3843 19.3476 10.4423L14.3476 15.4423C14.2895 15.5004 14.2205 15.5465 14.1446 15.578C14.0687 15.6094 13.9873 15.6256 13.9051 15.6256C13.823 15.6256 13.7416 15.6094 13.6657 15.578C13.5897 15.5465 13.5207 15.5004 13.4626 15.4423C13.4045 15.3842 13.3584 15.3152 13.327 15.2393C13.2955 15.1634 13.2793 15.082 13.2793 14.9998C13.2793 14.9176 13.2955 14.8363 13.327 14.7603C13.3584 14.6844 13.4045 14.6154 13.4626 14.5573L17.3964 10.6248H2.65513C2.48937 10.6248 2.3304 10.559 2.21319 10.4418C2.09598 10.3245 2.03013 10.1656 2.03013 9.99981Z" fill="#0C1167" />
-            </svg>
-        </p>
     </section>
     <section class="container mx-auto p-7 my-5" style="border-radius: 5px;
 border: 1px solid #F1F1F1;

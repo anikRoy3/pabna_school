@@ -58,7 +58,7 @@
                 <div class="flex flex-col justify-center items-center h-[13.24em] w-[15em] p-[1em]" style="border-radius: 5px;
                 border: 1px solid var(--blue-1, #0C1167);
                 background: #F8F9FC;
-                " ">
+                ">
                     <span class="mb-2">
                     <img style="width: 6rem;"    src="src/assests/notice_images/image1.svg" alt="">
                     </span>
@@ -191,8 +191,7 @@
                             <small>১২:২৩ PM</small>
                         </p>
                     </div>
-                </div>
-                
+                </div>    
             </div>
         </div>
     </section>

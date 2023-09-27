@@ -60,8 +60,6 @@
     </div>
 </footer>
 
-
-
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         const main_nav = document.getElementById('main_nav');
@@ -97,6 +95,7 @@
 
         window.addEventListener('scroll', function() {
             const scrollTop = window.scrollY;
+
             if (!isMobileView()) {
                 if (scrollTop > 0) {
                     nav_one.style.display = 'none';
@@ -109,8 +108,6 @@
         });
     })
 </script>
-
-
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
 
